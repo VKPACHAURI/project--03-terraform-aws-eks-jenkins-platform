@@ -1,0 +1,34 @@
+03-terraform-aws-eks-jenkins-platform/
+│
+├── terraform/
+│   ├── backend.tf
+│   ├── provider.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   ├── vpc.tf
+│   ├── eks.tf
+│   ├── nodegroup.tf
+│   ├── iam.tf
+│   ├── ecr.tf
+│
+├── kubernetes/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   ├── ingress.yaml
+│
+├── jenkins/
+│   └── Jenkinsfile
+│
+├── monitoring/
+│   ├── prometheus-values.yaml
+│   └── grafana-values.yaml
+│
+├── python/
+│   ├── cluster-health.py
+│   ├── pod-monitor.py
+│   └── inventory.py
+│
+├── screenshots/
+│
+├── README.md
+└── .gitignore

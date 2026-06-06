@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
+
+# AWS
+*.pem
+*.key
+
+# Kubernetes
+kubeconfig
+kubeconfig.yaml
+
+# Jenkins Secrets
+jenkins-secrets.yaml
+secrets.yaml
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
